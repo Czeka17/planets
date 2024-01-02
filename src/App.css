@@ -1,0 +1,23 @@
+/* App.css */
+
+/* Initial style for the transition */
+[transition-enter] {
+  opacity: 0;
+}
+
+/* Transition effect for entering the page */
+[transition-enter-active] {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+/* Initial style for the transition */
+[transition-exit] {
+  opacity: 1;
+}
+
+/* Transition effect for exiting the page */
+[transition-exit-active] {
+  opacity: 0;
+  transition: opacity 300ms;
+}
